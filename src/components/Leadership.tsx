@@ -6,21 +6,21 @@ import { Users, Award, BookOpen } from "lucide-react";
 const leadership = [
   {
     icon: Users,
-    title: "Women in Data Science",
-    role: "Active Member & Advocate",
-    description: "Promoting diversity and inclusion in the data science community through mentorship and events.",
+    title: "UBC Women in Data Science",
+    role: "Marketing Director",
+    description: "Grew the community to 1,700+ followers and boosted engagement through events and content.",
   },
   {
     icon: Award,
     title: "UBC Statistics Society",
-    role: "Executive Member",
-    description: "Organizing workshops and networking events for statistics students and professionals.",
+    role: "External Executive",
+    description: "Led outreach and events for 1,000+ members in the stats community.",
   },
   {
     icon: BookOpen,
-    title: "UBC Research",
-    role: "Research Assistant",
-    description: "Contributing to academic research in statistical methodology and data analysis techniques.",
+    title: "UBC Research Opportunities",
+    role: "Student Engagement Committee",
+    description: "Organized research fairs, panels, and workshops connecting students with industry.",
   },
 ];
 

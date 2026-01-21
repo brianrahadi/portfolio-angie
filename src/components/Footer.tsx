@@ -14,7 +14,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Angelique Clara Hanzell. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
-            Built with passion for data & design
+            {/* Built with passion for data & design */}
           </p>
         </motion.div>
       </div>

@@ -32,12 +32,12 @@ const Hero = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-accent font-medium mb-6 tracking-wide uppercase text-sm"
           >
-            Data Analyst · Analytics Engineer
+            Aspiring Data Analyst · Data Engineer
           </motion.p>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold text-foreground leading-tight mb-8 max-w-4xl mx-auto">
             Hi, I'm{" "}
-            <span className="text-gradient">Angelique</span> — a Data Analyst who builds insights that scale.
+            <span className="text-gradient">Angelique</span>!
           </h1>
 
           <motion.p
@@ -46,7 +46,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light"
           >
-            B.Sc. Statistics @ UBC · Analytics · ETL · Dashboards
+            B.Sc. Statistics @ UBC · Minor in Data Science · Concentration in Computer Science 
           </motion.p>
 
           <motion.div
@@ -56,16 +56,16 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <motion.a
-              href="#projects"
+              href="#experience"
               className="btn-primary inline-flex items-center gap-2 group"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
             >
-              Explore Projects
+              Explore Experience
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </motion.a>
             <motion.a
-              href="#"
+              href="/Angelique_Clara_Hanzell_Resume.pdf"
               className="btn-secondary inline-flex items-center gap-2"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}

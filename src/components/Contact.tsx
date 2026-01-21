@@ -7,20 +7,20 @@ const socialLinks = [
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:angelique@example.com",
-    username: "angelique@example.com",
+    href: "mailto:angeliqueclra@gmail.com",
+    username: "angeliqueclra@gmail.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/angelique",
-    username: "linkedin.com/in/angelique",
+    href: "https://www.linkedin.com/in/angeliqueclara",
+    username: "linkedin.com/in/angeliqueclara",
   },
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/angelique",
-    username: "github.com/angelique",
+    href: "https://github.com/angieclra",
+    username: "github.com/angieclra",
   },
 ];
 

@@ -47,11 +47,7 @@ const About = () => {
           className="max-w-3xl mx-auto text-center mb-16"
         >
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm a data analyst with a strong foundation in statistics and a passion for uncovering 
-            insights that drive business value. With experience spanning quality assurance, 
-            business intelligence, and data engineering, I specialize in building end-to-end 
-            analytics solutions—from designing efficient data pipelines to crafting intuitive 
-            dashboards that empower stakeholders to make informed decisions.
+          I work with data and statistics to help teams make better decisions. I’ve built pipelines, dashboards, and QA systems, and I like owning the full process - from raw data to insights people trust.
           </p>
         </motion.div>
 

@@ -7,26 +7,26 @@ const experiences = [
   {
     company: "Lirvana Labs",
     role: "QA Manager",
-    period: "2025 – Present",
-    description: "Leading quality assurance initiatives and implementing data-driven testing strategies.",
+    period: "May 2025 – Present",
+    description: "Lead QA and analytics workflows for AI learning systems used by 33k+ learners in 70+ languages. I track release quality, build internal dashboards, and use data to reduce recurring issues across deployments.",
   },
   {
     company: "Samsung",
     role: "Data Analyst Co-op",
-    period: "2024",
-    description: "Analyzed consumer insights and built dashboards to track product performance metrics.",
+    period: "Jan 2024 – Aug 2024",
+    description: "Owned an independent analytics project on Samsung Knox data. I wrote complex SQL, built BI reports, and standardized 100+ dashboards to help teams monitor risk, performance, and platform health.",
   },
   {
     company: "TELUS",
     role: "BI Engineer Co-op",
-    period: "2023",
-    description: "Developed ETL pipelines and business intelligence solutions for telecommunications data.",
+    period: "Jan 2023 – Aug 2023",
+    description: "Built and optimized cloud ETL pipelines with Python, Spark, and SQL. I helped cut processing time in half and improved forecasting tools used by business teams.",
   },
   {
     company: "UBC",
     role: "Data Science Teaching Assistant",
-    period: "2022 – 2025",
-    description: "Supported students in statistics and data science courses, focusing on practical applications.",
+    period: "Sep 2022 – May 2025",
+    description: "Supported 3,000+ students in data science and statistics courses. I taught data wrangling, visualization, and machine learning concepts and helped students apply them in real projects.",
   },
 ];
 
