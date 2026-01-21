@@ -5,15 +5,15 @@ import { useRef } from "react";
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["SQL", "Python", "R", "Java", "JavaScript"],
+    skills: ["Python", "R", "SQL", "Java", "JavaScript"],
   },
   {
-    title: "Tools & Technologies",
-    skills: ["Tableau", "Power BI", "Excel", "Airflow", "ETL", "Dimensional Modeling"],
+    title: "Analytics",
+    skills: ["Tableau", "Power BI", "Excel", "SQL Reporting", "Airflow", "ETL Pipelines", "Dimensional Modeling"],
   },
   {
     title: "Platforms",
-    skills: ["GCP", "Redshift", "Azure SQL", "Git", "Jupyter", "Kibana"],
+    skills: ["Google Cloud Platform (GCP)", "Redshift", "Azure SQL", "Git & GitHub", "VS Code", "Jupyter", "RStudio", "Kibana"],
   },
 ];
 
@@ -30,7 +30,7 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">Skills</h2>
+          <h2 className="section-title">tools & skills</h2>
           <p className="section-subtitle mx-auto">
             {/* A comprehensive toolkit for modern data analytics */}
           </p>

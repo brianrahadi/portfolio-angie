@@ -6,27 +6,27 @@ import { Briefcase } from "lucide-react";
 const experiences = [
   {
     company: "Lirvana Labs",
-    role: "QA Manager",
-    period: "May 2025 – Present",
-    description: "Lead QA and analytics workflows for AI learning systems used by 33k+ learners in 70+ languages. I track release quality, build internal dashboards, and use data to reduce recurring issues across deployments.",
-  },
-  {
-    company: "Samsung Electronics",
-    role: "Data Analyst Co-op",
-    period: "Jan 2024 – Aug 2024",
-    description: "Owned an independent analytics project on Samsung Knox data. I wrote complex SQL, built BI reports, and standardized 100+ dashboards to help teams monitor risk, performance, and platform health.",
-  },
-  {
-    company: "TELUS",
-    role: "Business Intelligence Engineer Co-op",
-    period: "Jan 2023 – Aug 2023",
-    description: "Built and optimized cloud ETL pipelines with Python, Spark, and SQL. I helped cut processing time in half and improved forecasting tools used by business teams.",
+    role: "Quality Assurance Manager",
+    period: "Remote, Canada · May 2025 – Present",
+    description: "Lead QA and analytics workflows for AI-driven learning systems used by 33k+ learners in 70+ languages. Build dashboards, track release quality across 14+ releases, and use data to cut recurring issues by 30%.",
   },
   {
     company: "University of British Columbia",
     role: "Data Science Teaching Assistant",
-    period: "Sep 2022 – May 2025",
-    description: "Supported 3,000+ students in data science and statistics courses. I taught data wrangling, visualization, and machine learning concepts and helped students apply them in real projects.",
+    period: "Vancouver, BC · Sep 2022 – May 2025",
+    description: "Supported 3,000+ students in data science and statistics courses, teaching data wrangling, visualization, and machine learning concepts. Guided students on applying concepts to projects while consistently receiving high teaching evaluations.",
+  },
+  {
+    company: "Samsung Electronics",
+    role: "Data Analyst · Co-op",
+    period: "Vancouver, BC · Jan 2024 – Aug 2024",
+    description: "Led an independent analytics project on Samsung Knox Suite data, identifying risks and performance gaps. Improved and standardized 100+ dashboards while optimizing ETL pipelines, increasing efficiency by 30%.",
+  },
+  {
+    company: "TELUS",
+    role: "Business Intelligence Engineer · Co-op",
+    period: "Vancouver, BC · Jan 2023 – Aug 2023",
+    description: "Optimized cloud ETL pipelines processing millions of records, cutting data processing time by 50%. Enhanced forecasting tools & produced recurring reports to support business decisions.",
   },
 ];
 
@@ -35,7 +35,7 @@ const Experience = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" className="bg-secondary/30" ref={ref}>
+    <section id="experience" className="bg-secondary/50" ref={ref}>
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -43,7 +43,7 @@ const Experience = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">Experience</h2>
+          <h2 className="section-title">experience</h2>
           <p className="section-subtitle mx-auto">
             {/* Building expertise across analytics, engineering, and leadership */}
           </p>

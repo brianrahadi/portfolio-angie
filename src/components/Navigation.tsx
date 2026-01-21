@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "👋🏻 About", href: "#about" },
-  { label: "💻 Skills", href: "#skills" },
-  { label: "💼 Experience", href: "#experience" },
-  // { label: "Projects", href: "#projects" },
-  { label: "🌟 Leadership", href: "#leadership" },
-  { label: "✉️ Contact", href: "#contact" },
+  { label: "🌱 about", href: "#about" },
+  { label: "🌟 skills", href: "#skills" },
+  { label: "👩🏻‍💻 experience", href: "#experience" },
+  { label: "🌸 projects", href: "#projects" },
+  { label: "🤝 leadership", href: "#leadership" },
+  { label: "💌 contact", href: "#contact" },
 ];
 
 const Navigation = () => {

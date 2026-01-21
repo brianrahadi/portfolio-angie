@@ -8,19 +8,19 @@ const leadership = [
     icon: Users,
     title: "UBC Women in Data Science",
     role: "Marketing Director",
-    description: "Grew the community to 1,700+ followers and boosted engagement through events and content.",
-  },
-  {
-    icon: Award,
-    title: "UBC Statistics Society",
-    role: "External Executive",
-    description: "Led outreach and events for 1,000+ members in the stats community.",
+    description: "Grew the community to 1,700+ followers and boosted engagement through events and content",
   },
   {
     icon: BookOpen,
     title: "UBC Research Opportunities",
     role: "Student Engagement Committee",
-    description: "Organized research fairs, panels, and workshops connecting students with industry.",
+    description: "Organized Life Science Research Night (LSRN), panels, and workshops connecting students with industry",
+  },
+  {
+    icon: Award,
+    title: "UBC Statistics Society",
+    role: "External Executive",
+    description: "Led outreach and events for 1,000+ members in the statistics community",
   },
 ];
 
@@ -29,7 +29,7 @@ const Leadership = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="leadership" className="bg-secondary/30" ref={ref}>
+    <section id="leadership" className="bg-secondary/50" ref={ref}>
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -37,7 +37,7 @@ const Leadership = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">Leadership & Community</h2>
+          <h2 className="section-title">leadership & community</h2>
           <p className="section-subtitle mx-auto">
             {/* Giving back and growing with the data community */}
           </p>

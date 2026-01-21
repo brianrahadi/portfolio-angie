@@ -37,9 +37,9 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">Let's Connect ♡</h2>
+          <h2 className="section-title">let's connect ♡</h2>
           <p className="section-subtitle mx-auto">
-          Always down to talk data, dashboards, or what you’re building next!
+          always down to talk data, dashboards, or what you’re building next!
           </p>
         </motion.div>
 

@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="bg-secondary/30" ref={ref}>
+    <section id="about" className="bg-secondary/50" ref={ref}>
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -34,7 +34,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">👋🏻 About Me</h2>
+          <h2 className="section-title">about me</h2>
           <p className="section-subtitle mx-auto">
             {/* Passionate about transforming raw data into meaningful stories */}
           </p>
@@ -47,9 +47,14 @@ const About = () => {
           className="max-w-3xl mx-auto text-center mb-16"
         >
           <p className="text-lg text-muted-foreground leading-relaxed">
-          I work with data and statistics to help teams make better decisions. I’ve built pipelines, dashboards, and QA systems, and I like owning the full process - from raw data to insights. <br /><br />
-          
-  Outside of work, you’ll probably find me crocheting 🧶, sketching digital art 🎨, or exploring new ways to make data more understandable and fun.
+I’m deeply passionate about using data science, statistics, and machine learning to solve meaningful, real-world problems. from wrangling data to uncovering insights, I love every part of the journey that brings clarity to complexity.<br /><br />
+
+I’m a curious, driven learner always looking for ways to grow - in and out of the workforce. I love using data to transform industries, empower people, and guide thoughtful decisions.<br /><br />
+
+originally from Indonesia, I came to Canada as an international student without knowing anyone and built my life here from the ground up. that experience shaped my resilience, independence, and deep appreciation for diverse perspectives in tech.<br /><br />
+
+outside of work, I love creating - whether that’s through digital art, crocheting, or exploring new ways to make data more visual and engaging.
+
           </p>
         </motion.div>
 

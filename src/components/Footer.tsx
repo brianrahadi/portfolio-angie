@@ -11,7 +11,7 @@ const Footer = () => {
           className="flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Angelique Clara Hanzell. All rights reserved.
+            © {new Date().getFullYear()} Angelique Clara Hanzell
           </p>
           <p className="text-muted-foreground text-sm">
             {/* Built with passion for data & design */}

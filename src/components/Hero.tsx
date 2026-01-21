@@ -36,7 +36,7 @@ const Hero = () => {
           </motion.p>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold text-foreground leading-tight mb-8 max-w-4xl mx-auto">
-            Hi, I'm{" "}
+            hi, I'm{" "}
             <span className="text-gradient">Angelique Clara</span>! 
           </h1>
 

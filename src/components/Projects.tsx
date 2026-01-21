@@ -5,28 +5,33 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Customer Churn Prediction",
-    description: "Built a machine learning pipeline to predict customer churn with 92% accuracy, enabling proactive retention strategies.",
-    tags: ["Python", "Scikit-learn", "Pandas", "Tableau"],
-    github: "#",
+    title: "Spiral COVID-19 Data Visualizer",
+    description: "Created spiral graph visualizations with ggplot2 to show real-time COVID-19 time-series data.",
+    tags: ["Java", "R", "CSS", "HTML", "Node.js", "ggplot2"],
+    github: "https://github.com/YellowPrawn/Spiral-Data-Visualizer",
+    link: "https://yellowprawn.github.io/Spiral-Data-Visualizer/",
   },
   {
-    title: "Sales Analytics Dashboard",
-    description: "Designed an interactive Power BI dashboard tracking $50M+ in annual sales across multiple product lines.",
-    tags: ["Power BI", "SQL", "DAX", "Azure SQL"],
-    github: "#",
+    title: "Credit Card Default Analysis",
+    description: "Built ML models (Logistic Regression, Random Forest, CatBoost, k-NN) to predict credit card defaults, achieving ~85% accuracy. Used SHAP and eli5 for feature importance and model explainability.",
+    tags: ["Python", "Scikit-learn", "Pandas", "SHAP", "eli5"],
+    github: "https://github.com/angieclra/credit_card_ML_analysis/tree/main",
+    link: "https://github.com/angieclra/credit_card_ML_analysis/blob/main/project.ipynb",
   },
   {
-    title: "ETL Pipeline Framework",
-    description: "Developed a scalable ETL framework using Airflow, processing 10M+ records daily with 99.9% reliability.",
-    tags: ["Python", "Airflow", "GCP", "BigQuery"],
-    github: "#",
+    title: "Vancouver Airbnb Market Insights",
+    description: "Explored Airbnb listings, pricing, and host behaviors in Vancouver using interactive dashboards. Highlighted patterns in neighborhood distribution, pricing, and guest experiences to inform hosts, travelers, and researchers.",
+    tags: ["Python","Pandas", "Altair"],
+    github: "https://github.com/ubc-dsci320-2024w2/project-team_fantasticfour/blob/main/analysis/Angelique/analysis2.ipynb",
+    link: "https://github.com/ubc-dsci320-2024w2/project-team_fantasticfour/pull/4",
   },
+
   {
-    title: "A/B Testing Platform",
-    description: "Created a statistical analysis tool for A/B testing, reducing analysis time by 60% for the product team.",
-    tags: ["R", "Shiny", "Statistical Analysis"],
-    github: "#",
+    title: "Celebrity Life Expectancy Analysis",
+    description: "Analyzed celebrity ages at death using random and stratified sampling, finding the median aligns with the global average (72.6 years) and highlighting differences across gender groups.",
+    tags: ["R", "Statistics", "Data Analysis", "Sampling Methods"],
+    github: "https://github.com/jjadeb/STAT334-Project/blob/master/STAT344%20Group%20Project-Copy1.ipynb",
+    link: "https://github.com/jjadeb/STAT334-Project/blob/master/STAT344%20Group%20Project-Copy1.ipynb"
   },
 ];
 
@@ -43,9 +48,9 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">Featured Projects</h2>
+          <h2 className="section-title">featured projects</h2>
           <p className="section-subtitle mx-auto">
-            A selection of work that demonstrates my approach to data problems
+            {/* A selection of work that demonstrates my approach to data problems */}
           </p>
         </motion.div>
 
@@ -73,7 +78,7 @@ const Projects = () => {
                     <Github size={20} />
                   </motion.a>
                   <motion.a
-                    href="#"
+                    href={project.link}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                     className="text-muted-foreground hover:text-foreground transition-colors"
