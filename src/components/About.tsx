@@ -8,21 +8,21 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const highlights = [
-    {
-      icon: TrendingUp,
-      title: "Business Impact",
-      description: "Translating complex data into actionable insights that drive decisions",
-    },
-    {
-      icon: Database,
-      title: "Data Pipelines",
-      description: "Building robust ETL processes and data infrastructure at scale",
-    },
-    {
-      icon: BarChart3,
-      title: "Visualization",
-      description: "Creating compelling dashboards that tell the story behind the numbers",
-    },
+    // {
+    //   icon: TrendingUp,
+    //   title: "33k+ Learners",
+    //   description: "QA + analytics for AI systems used globally",
+    // },
+    // {
+    //   icon: Database,
+    //   title: "ETL at Scale",
+    //   description: "Airflow + SQL pipelines in production",
+    // },
+    // {
+    //   icon: BarChart3,
+    //   title: "100+ Dashboards",
+    //   description: "Standardized across Tableau & Power BI",
+    // },
   ];
 
   return (
@@ -34,9 +34,9 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title">👋🏻 About Me</h2>
           <p className="section-subtitle mx-auto">
-            Passionate about transforming raw data into meaningful stories
+            {/* Passionate about transforming raw data into meaningful stories */}
           </p>
         </motion.div>
 
@@ -47,7 +47,9 @@ const About = () => {
           className="max-w-3xl mx-auto text-center mb-16"
         >
           <p className="text-lg text-muted-foreground leading-relaxed">
-          I work with data and statistics to help teams make better decisions. I’ve built pipelines, dashboards, and QA systems, and I like owning the full process - from raw data to insights people trust.
+          I work with data and statistics to help teams make better decisions. I’ve built pipelines, dashboards, and QA systems, and I like owning the full process - from raw data to insights. <br /><br />
+          
+  Outside of work, you’ll probably find me crocheting 🧶, sketching digital art 🎨, or exploring new ways to make data more understandable and fun.
           </p>
         </motion.div>
 

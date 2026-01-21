@@ -11,19 +11,19 @@ const experiences = [
     description: "Lead QA and analytics workflows for AI learning systems used by 33k+ learners in 70+ languages. I track release quality, build internal dashboards, and use data to reduce recurring issues across deployments.",
   },
   {
-    company: "Samsung",
+    company: "Samsung Electronics",
     role: "Data Analyst Co-op",
     period: "Jan 2024 – Aug 2024",
     description: "Owned an independent analytics project on Samsung Knox data. I wrote complex SQL, built BI reports, and standardized 100+ dashboards to help teams monitor risk, performance, and platform health.",
   },
   {
     company: "TELUS",
-    role: "BI Engineer Co-op",
+    role: "Business Intelligence Engineer Co-op",
     period: "Jan 2023 – Aug 2023",
     description: "Built and optimized cloud ETL pipelines with Python, Spark, and SQL. I helped cut processing time in half and improved forecasting tools used by business teams.",
   },
   {
-    company: "UBC",
+    company: "University of British Columbia",
     role: "Data Science Teaching Assistant",
     period: "Sep 2022 – May 2025",
     description: "Supported 3,000+ students in data science and statistics courses. I taught data wrangling, visualization, and machine learning concepts and helped students apply them in real projects.",
@@ -45,7 +45,7 @@ const Experience = () => {
         >
           <h2 className="section-title">Experience</h2>
           <p className="section-subtitle mx-auto">
-            Building expertise across analytics, engineering, and leadership
+            {/* Building expertise across analytics, engineering, and leadership */}
           </p>
         </motion.div>
 

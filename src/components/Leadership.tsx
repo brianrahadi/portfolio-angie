@@ -39,7 +39,7 @@ const Leadership = () => {
         >
           <h2 className="section-title">Leadership & Community</h2>
           <p className="section-subtitle mx-auto">
-            Giving back and growing with the data community
+            {/* Giving back and growing with the data community */}
           </p>
         </motion.div>
 

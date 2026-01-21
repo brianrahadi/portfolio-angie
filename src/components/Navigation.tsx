@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
+  { label: "👋🏻 About", href: "#about" },
+  { label: "💻 Skills", href: "#skills" },
+  { label: "💼 Experience", href: "#experience" },
   // { label: "Projects", href: "#projects" },
-  { label: "Leadership", href: "#leadership" },
-  { label: "Contact", href: "#contact" },
+  { label: "🌟 Leadership", href: "#leadership" },
+  { label: "✉️ Contact", href: "#contact" },
 ];
 
 const Navigation = () => {
@@ -40,7 +40,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.2 }}
           >
-            {/* Angelique Clara */}
+            
           </motion.a>
 
           {/* Desktop Navigation */}

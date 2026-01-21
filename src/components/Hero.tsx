@@ -32,12 +32,12 @@ const Hero = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-accent font-medium mb-6 tracking-wide uppercase text-sm"
           >
-            Aspiring Data Analyst · Data Engineer
+            ◡̈ Glad you’re here,
           </motion.p>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold text-foreground leading-tight mb-8 max-w-4xl mx-auto">
             Hi, I'm{" "}
-            <span className="text-gradient">Angelique</span>!
+            <span className="text-gradient">Angelique Clara</span>! 
           </h1>
 
           <motion.p
@@ -46,7 +46,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light"
           >
-            B.Sc. Statistics @ UBC · Minor in Data Science · Concentration in Computer Science 
+            B.Sc. Statistics @ UBC · Minor in Data Science
           </motion.p>
 
           <motion.div

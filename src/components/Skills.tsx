@@ -30,9 +30,9 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="section-title">Skills & Expertise</h2>
+          <h2 className="section-title">Skills</h2>
           <p className="section-subtitle mx-auto">
-            A comprehensive toolkit for modern data analytics
+            {/* A comprehensive toolkit for modern data analytics */}
           </p>
         </motion.div>
 
