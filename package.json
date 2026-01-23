@@ -1,7 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "homepage":"https://angieclra.github.io/portfolio",
-  // "private": true,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
