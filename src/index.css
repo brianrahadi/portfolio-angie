@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-
 /* Apple-inspired Design System for Angelique's Portfolio */
 
 @layer base {
@@ -15,10 +14,10 @@
     /* Soft blush pink accent */
     --primary: 350 60% 88%;
     --primary-foreground: 220 20% 10%;
-    
+
     /* Deeper pink for hover states */
     --primary-hover: 350 55% 82%;
-    
+
     /* Rose accent for highlights */
     --accent: 350 70% 75%;
     --accent-foreground: 220 20% 10%;
@@ -53,7 +52,7 @@
     /* Custom gradients */
     --gradient-hero: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(350 60% 97%) 50%, hsl(350 50% 95%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(350 30% 98%) 100%);
-    
+
     /* Shadows */
     --shadow-soft: 0 4px 20px -4px hsl(220 20% 10% / 0.08);
     --shadow-card: 0 8px 30px -8px hsl(220 20% 10% / 0.1);
@@ -117,12 +116,18 @@
   }
 
   /* Apple-style large headings */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold tracking-tight;
   }
 }
 
 @layer components {
+
   /* Hero gradient background */
   .hero-gradient {
     background: var(--gradient-hero);
@@ -197,6 +202,7 @@
 }
 
 @layer utilities {
+
   /* Text gradient */
   .text-gradient {
     @apply bg-clip-text text-transparent;
